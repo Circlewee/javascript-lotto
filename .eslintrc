@@ -1,0 +1,16 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 13
+  },
+  "plugins": ["import"],
+  "extends": ["airbnb-base", "prettier"],
+  "ignorePatterns": ["__tests__/*.js"],
+  "rules": {
+    "class-methods-use-this": "off"
+  }
+}
